@@ -1,3 +1,5 @@
+<img src="./img/banner github.png"/> <br><br>
+
 # Desafio: Modelo de Domínio e ORM
 
 ## Descrição do Projeto
@@ -101,4 +103,6 @@ src/
 ### Observações
 - O projeto foi configurado para criar o banco de dados H2 automaticamente ao ser iniciado.
 - O arquivo import.sql é utilizado para inserir os dados de exemplo automaticamente no banco de dados.
+
+  <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4C89F8&height=120&section=footer"/>
 
