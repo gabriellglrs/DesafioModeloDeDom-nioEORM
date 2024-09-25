@@ -34,14 +34,15 @@ O sistema gerencia as seguintes entidades:
   - Email
 - **AtividadeParticipante**: Tabela intermediária que relaciona participantes e atividades (associação N:N).
 
-## Estrutura do Projeto
+## Estrutura do Projeto UML
+![image](https://github.com/user-attachments/assets/02947029-e98b-42eb-b2fa-3b6b6905f782)
 
-O projeto segue a arquitetura MVC (Model-View-Controller):
+## Instância dos dados para seeding
+![image](https://github.com/user-attachments/assets/ebc4f88d-b9bf-40a5-a77b-181b19b2343a)
 
-- **Model**: Representa as entidades do domínio.
-- **Repository**: Responsável pelo acesso ao banco de dados usando Spring Data JPA.
-- **Service**: Camada de serviço que contém as regras de negócio.
-- **Controller**: Controladores REST que expõem endpoints para as operações da aplicação.
+## O projeto segue a arquitetura MVC (Model-View-Controller):
+
+- **entities**: Representa as entidades do domínio.
 
 ## Executando o Projeto
 
@@ -91,10 +92,7 @@ src/
 │
 ├── main/
 │   ├── java/com/devgabriellucas/desafio/
-│   │   ├── controller/
 │   │   ├── entities/
-│   │   ├── repository/
-│   │   └── service/
 │   └── resources/
 │       ├── application.properties
 │       └── import.sql
